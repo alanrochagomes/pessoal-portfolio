@@ -3,6 +3,8 @@ const rootHtml = document.documentElement;
 const accordionHeaders = document.querySelectorAll(".accordion__header");
 const menuLinks = document.querySelectorAll(".menu__link");
 
+//TODO: changeTheme
+
 // function changeTheme(){
 //   const currentTheme = rootHtml.getAttribute("data-theme");
 
