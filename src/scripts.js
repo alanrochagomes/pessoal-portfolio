@@ -16,23 +16,23 @@ const menuLinks = document.querySelectorAll(".menu__link");
 
 // toggleTheme.addEventListener("click", changeTheme);
 
-document.addEventListener("DOMContentLoaded", function () {
-  const accordionHeaders = document.querySelectorAll(".accordion__header");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const accordionHeaders = document.querySelectorAll(".accordion__header");
 
-  accordionHeaders.forEach((header) => {
-    header.addEventListener("click", () => {
-      const accordionItem = header.parentElement;
-      const accordionActive = accordionItem.classList.contains("active");
+//   accordionHeaders.forEach((header) => {
+//     header.addEventListener("click", () => {
+//       const accordionItem = header.parentElement;
+//       const accordionActive = accordionItem.classList.contains("active");
 
-      // Fecha todos os outros itens
-      document.querySelectorAll(".accordion__item").forEach((item) => {
-        item.classList.remove("active");
-      });
+//       // Fecha todos os outros itens
+//       document.querySelectorAll(".accordion__item").forEach((item) => {
+//         item.classList.remove("active");
+//       });
 
-      // Abre o item clicado se ele não estiver ativo
-      if (!accordionActive) {
-        accordionItem.classList.add("active");
-      }
-    });
-  });
-});
+//       // Abre o item clicado se ele não estiver ativo
+//       if (!accordionActive) {
+//         accordionItem.classList.add("active");
+//       }
+//     });
+//   });
+// });
